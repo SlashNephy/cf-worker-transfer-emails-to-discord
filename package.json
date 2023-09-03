@@ -6,13 +6,13 @@
   "scripts": {
     "build": "tsc",
     "deploy": "wrangler deploy",
-    "start": "wrangler dev",
     "format": "concurrently -n format: -m 1 'yarn:format:*'",
     "format:eslint": "yarn lint:eslint --fix",
     "format:prettier": "yarn lint:prettier --write",
     "lint": "concurrently -n lint: 'yarn:lint:*'",
     "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --check ."
+    "lint:prettier": "prettier --check .",
+    "start": "wrangler dev"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20230419.0",
