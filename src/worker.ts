@@ -5,7 +5,6 @@ export type Env = {
   DISCORD_WEBHOOK_URL: string
 }
 
-// eslint-disable-next-line import/no-default-export
 export default {
   async email(message: ForwardableEmailMessage, env: Env): Promise<void> {
     if (env.FORWARD_TO) {
