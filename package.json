@@ -15,7 +15,7 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231025.0",
+    "@cloudflare/workers-types": "4.20231121.0",
     "@slashnephy/eslint-config": "2.0.67",
     "@slashnephy/prettier-config": "1.0.49",
     "concurrently": "8.2.2",
