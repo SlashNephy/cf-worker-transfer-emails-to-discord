@@ -12,6 +12,6 @@
     "strict": true,
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
-    "useUnknownInCatchVariables": true,
-  },
+    "useUnknownInCatchVariables": true
+  }
 }
