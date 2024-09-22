@@ -18,7 +18,7 @@
     "extends": "@slashnephy/eslint-config"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240909.0",
+    "@cloudflare/workers-types": "4.20240919.0",
     "@slashnephy/eslint-config": "2.3.116",
     "@slashnephy/prettier-config": "1.0.73",
     "concurrently": "9.0.1",
