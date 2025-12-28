@@ -6672,11 +6672,11 @@ __metadata:
   linkType: hard
 
 "ts-api-utils@npm:^2.0.1, ts-api-utils@npm:^2.1.0":
-  version: 2.2.0
-  resolution: "ts-api-utils@npm:2.2.0"
+  version: 2.3.0
+  resolution: "ts-api-utils@npm:2.3.0"
   peerDependencies:
     typescript: ">=4.8.4"
-  checksum: 8a642fa1ac1328442b8916362edca046fdefe17e1219c42c4db07c6ac46179f9037c1b39fd02be346f050b96bc22b20e9527619c8a2e5ca11f3fa7c20efa6d5b
+  checksum: c11d5fe54418beaccb1a7c0b0816903bd088c4ee1848b7dd25ea489431f3c83880a3eaf8667964354a1c9fdf86b012a1f0b16a2e61d248c0774ab139d2173941
   languageName: node
   linkType: hard
 
