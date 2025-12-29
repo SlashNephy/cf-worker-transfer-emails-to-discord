@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
     "target": "es2021",
-    "lib": ["es2021"],
+    "lib": [
+      "es2021"
+    ],
     "module": "es2022",
     "moduleResolution": "node",
-    "types": ["@cloudflare/workers-types"],
+    "types": [
+      "@cloudflare/workers-types"
+    ],
     "noEmit": true,
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
@@ -13,5 +17,8 @@
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
     "useUnknownInCatchVariables": true
-  }
+  },
+  "include": [
+    "src"
+  ]
 }

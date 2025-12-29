@@ -2,30 +2,26 @@
   "name": "transfer-emails-to-discord",
   "version": "0.0.0",
   "private": true,
-  "repository": "https://github.com/SlashNephy/cf-worker-transfer-emails-to-discord",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlashNephy/cf-worker-transfer-emails-to-discord"
+  },
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "deploy": "wrangler deploy",
-    "format": "concurrently -n format: -m 1 'yarn:format:*'",
-    "format:eslint": "yarn lint:eslint --fix",
-    "format:prettier": "yarn lint:prettier --write",
-    "lint": "concurrently -n lint: 'yarn:lint:*'",
-    "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --check .",
+    "format": "eslint --fix",
+    "lint": "eslint .",
     "start": "wrangler dev"
-  },
-  "eslintConfig": {
-    "extends": "@slashnephy/eslint-config"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20251225.0",
-    "@slashnephy/eslint-config": "2.3.204",
-    "@slashnephy/prettier-config": "1.0.73",
-    "concurrently": "9.2.1",
-    "eslint": "8.57.1",
-    "prettier": "3.7.4",
+    "@slashnephy/eslint-config": "3.0.136",
+    "eslint": "9.39.2",
+    "storybook": "10.1.10",
     "typescript": "5.9.3",
     "wrangler": "4.54.0"
   },
-  "packageManager": "yarn@3.8.7"
+  "packageManager": "yarn@4.12.0+sha512.f45ab632439a67f8bc759bf32ead036a1f413287b9042726b7cc4818b7b49e14e9423ba49b18f9e06ea4941c1ad062385b1d8760a8d5091a1a31e5f6219afca8"
 }
