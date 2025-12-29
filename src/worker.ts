@@ -17,7 +17,7 @@ export default {
 
 async function executeDiscordWebhook(
   url: string,
-  message: ForwardableEmailMessage
+  message: ForwardableEmailMessage,
 ): Promise<void> {
   await fetch(url, {
     method: 'POST',
@@ -26,8 +26,8 @@ async function executeDiscordWebhook(
     },
     body: JSON.stringify({
       username:
-        message.headers.get('From')?.replace(/^"(.+)" <(.+)>$/, '$1 <$2>') ??
-        message.from,
+        message.headers.get('From')?.replace(/^"(.+)" <(.+)>$/, '$1 <$2>')
+        ?? message.from,
       embeds: [
         {
           title: message.headers.get('Subject'),
