@@ -19,7 +19,7 @@
     "@cloudflare/workers-types": "4.20251229.0",
     "@slashnephy/eslint-config": "3.0.136",
     "eslint": "9.39.2",
-    "storybook": "10.1.10",
+    "storybook": "10.1.11",
     "typescript": "5.9.3",
     "wrangler": "4.54.0"
   },
