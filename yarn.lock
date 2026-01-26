@@ -1613,12 +1613,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.1.3":
-  version: 16.1.3
-  resolution: "@next/eslint-plugin-next@npm:16.1.3"
+"@next/eslint-plugin-next@npm:16.1.4":
+  version: 16.1.4
+  resolution: "@next/eslint-plugin-next@npm:16.1.4"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10/a799f9bbb9e2ff3db54ad2e05830debbf3a75d27e7d50d8d2de04da205d744dd80ae9065de9f37ee53272b39641f9fc8c57f8dcc37ecc4decbf6901fb82658d7
+  checksum: 10/3414030b123cf9f6c873aea1661bf23fb6fcd1b73f90409785f495e21492bf7e626d5b0343ec5780d363666a56d7a4f3fe18af541f8e1f66444275ef5e5c31aa
   languageName: node
   linkType: hard
 
@@ -1712,15 +1712,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.169":
-  version: 3.0.169
-  resolution: "@slashnephy/eslint-config@npm:3.0.169"
+"@slashnephy/eslint-config@npm:3.0.171":
+  version: 3.0.171
+  resolution: "@slashnephy/eslint-config@npm:3.0.171"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
     "@eslint/js": "npm:9.39.2"
     "@graphql-eslint/eslint-plugin": "npm:4.4.0"
     "@microsoft/eslint-formatter-sarif": "npm:3.1.0"
-    "@next/eslint-plugin-next": "npm:16.1.3"
+    "@next/eslint-plugin-next": "npm:16.1.4"
     "@stylistic/eslint-plugin": "npm:5.7.0"
     "@susisu/eslint-plugin-safe-typescript": "npm:0.10.1"
     "@typescript-eslint/utils": "npm:8.53.0"
@@ -1752,7 +1752,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/0ace93b32170ad1b157a0af503d7eccda74315a8ae40b790aa053834481d891084526ac01355fbc69350f3b882cb0342cb14098667da67f848ffa305cd0f7866
+  checksum: 10/35bc6643e6622136d3b8552a2c8004147ea05f2ed10eedd399b026d0628ab5a7ebeea7edd4868c0d78e257877cfe8434ecf6ed89e2d072caa4e72feaf30bc818
   languageName: node
   linkType: hard
 
@@ -6922,7 +6922,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260123.0"
-    "@slashnephy/eslint-config": "npm:3.0.169"
+    "@slashnephy/eslint-config": "npm:3.0.171"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.0"
     typescript: "npm:5.9.3"
