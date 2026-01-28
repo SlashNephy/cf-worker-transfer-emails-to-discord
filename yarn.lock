@@ -1712,9 +1712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.174":
-  version: 3.0.174
-  resolution: "@slashnephy/eslint-config@npm:3.0.174"
+"@slashnephy/eslint-config@npm:3.0.175":
+  version: 3.0.175
+  resolution: "@slashnephy/eslint-config@npm:3.0.175"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
     "@eslint/js": "npm:9.39.2"
@@ -1752,7 +1752,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/d444a29f7b013fb676269d8328a2991cc9436429ec04bcdbe26e1dcc96945b53f2870fec3dfb0ba7ceaa720e0ba26e29369eca706d00a8f5f95624c17657e3b6
+  checksum: 10/4770e73c98f5d8680cfcae7ad869e0f4a322bd0a57196fbb4a25d12644efe3ec6ab761f19da1f657ee2dc0e8f63e72cc61914d06bad16505c472672b284d4c15
   languageName: node
   linkType: hard
 
@@ -6922,7 +6922,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260124.0"
-    "@slashnephy/eslint-config": "npm:3.0.174"
+    "@slashnephy/eslint-config": "npm:3.0.175"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.0"
     typescript: "npm:5.9.3"
