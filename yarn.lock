@@ -1712,9 +1712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.182":
-  version: 3.0.182
-  resolution: "@slashnephy/eslint-config@npm:3.0.182"
+"@slashnephy/eslint-config@npm:3.0.184":
+  version: 3.0.184
+  resolution: "@slashnephy/eslint-config@npm:3.0.184"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
     "@eslint/js": "npm:9.39.2"
@@ -1738,13 +1738,13 @@ __metadata:
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-react-refresh: "npm:0.4.26"
     eslint-plugin-relay: "npm:2.0.0"
-    eslint-plugin-storybook: "npm:10.2.0"
+    eslint-plugin-storybook: "npm:10.2.1"
     eslint-plugin-tsdoc: "npm:0.5.0"
     eslint-plugin-unused-imports: "npm:4.3.0"
     eslint-plugin-userscripts: "npm:0.5.6"
     eslint-plugin-xss: "npm:0.1.12"
     eslint-plugin-yml: "npm:2.0.2"
-    globals: "npm:17.1.0"
+    globals: "npm:17.2.0"
     graphql: "npm:16.12.0"
     jsonc-eslint-parser: "npm:2.4.2"
     typescript: "npm:5.9.3"
@@ -1752,7 +1752,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/65845333bb7f21d0fda94fa7f5b7dcf8f21c862a7994179e6d08181b2c3291b7fce1b2555632bcccbb77c41d8385112c5ee925f5eb2ddeedb5065aa14eab0b9c
+  checksum: 10/f709625e6e7ed9de5e1dd20c7bbef0f1d3fd21450a7eb8a8971be249e2251513a0e56bad17e6e32d58545afae302d5925abcb5a13cb9ecce699290c3120fd727
   languageName: node
   linkType: hard
 
@@ -3837,15 +3837,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.2.0":
-  version: 10.2.0
-  resolution: "eslint-plugin-storybook@npm:10.2.0"
+"eslint-plugin-storybook@npm:10.2.1":
+  version: 10.2.1
+  resolution: "eslint-plugin-storybook@npm:10.2.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.0
-  checksum: 10/55c52b4da9f51f8def6c4c6931fe5ff24aaccf4d42a672f863f591cbeb907d33afa04f0cf2ccc3a4d5c530098bc7858a455c899ee493ca6caf6bd887ba201297
+    storybook: ^10.2.1
+  checksum: 10/16609a407bcae48742a43f2394a3635c2fbf50dd7b53710972797452a4d4ac3d78dc650a81a5a8d49d11288d322b2d60ca18aa7baeb955aa0f0b3588351838d3
   languageName: node
   linkType: hard
 
@@ -4472,10 +4472,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:17.1.0":
-  version: 17.1.0
-  resolution: "globals@npm:17.1.0"
-  checksum: 10/6e77442a3b80b41b11fb4f986326f0487b9872dee6852cc9373e01696787889f4648d2264a125504315a645be0dde61625200e422b5b8002c106ffbabaaf8fdc
+"globals@npm:17.2.0":
+  version: 17.2.0
+  resolution: "globals@npm:17.2.0"
+  checksum: 10/2812d7ae9a2889da33cad5188e6fe7c2d1a615e62d8e2092fbaa76a016536c2fcd72aba25896d8c6112fa0f2d95f005f59bf1dfc81ee014fe1ba54326ce14e57
   languageName: node
   linkType: hard
 
@@ -6824,7 +6824,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260130.0"
-    "@slashnephy/eslint-config": "npm:3.0.182"
+    "@slashnephy/eslint-config": "npm:3.0.184"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.3"
     typescript: "npm:5.9.3"
