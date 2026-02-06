@@ -267,10 +267,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20260131.0":
-  version: 4.20260131.0
-  resolution: "@cloudflare/workers-types@npm:4.20260131.0"
-  checksum: 10/eafd2edb024386212f8cd9cd609d7ef78a5a76b492f3029aeff617c2687d5c59c1d1fb5af802fad99a99fbcdedbd6be19f055ab7e77fa216d1835aa797496ed3
+"@cloudflare/workers-types@npm:4.20260203.0":
+  version: 4.20260203.0
+  resolution: "@cloudflare/workers-types@npm:4.20260203.0"
+  checksum: 10/799c6c433571ef45e0b89fae2b3e62bc632c16352d9438a57a6b52f4a5483090db736836dc8e8bc4bca60b637af7160ff26199e9df9656841199d83b928a96fb
   languageName: node
   linkType: hard
 
@@ -6823,7 +6823,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20260131.0"
+    "@cloudflare/workers-types": "npm:4.20260203.0"
     "@slashnephy/eslint-config": "npm:3.0.188"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.4"
