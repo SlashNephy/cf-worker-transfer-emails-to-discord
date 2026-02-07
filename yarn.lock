@@ -6552,9 +6552,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:10.2.5":
-  version: 10.2.5
-  resolution: "storybook@npm:10.2.5"
+"storybook@npm:10.2.6":
+  version: 10.2.6
+  resolution: "storybook@npm:10.2.6"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@storybook/icons": "npm:^2.0.1"
@@ -6575,7 +6575,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./dist/bin/dispatcher.js
-  checksum: 10/931de92ae7f07be3a4328a6b9a3f6f1feaafe68e10d2f769f70d6dc6453d7bc88391ab982bffb2a481fccfc6eaeaaadabdc862f960321f5601bc92b16926b8f5
+  checksum: 10/d11ec82e7957d56f8f584030b22ad9b3312414b878a1c5645116875f8d13e7cf82a9af90f452e593e9d590daeae6dd9b0496bbc2b37efe789e6cd89b04f22157
   languageName: node
   linkType: hard
 
@@ -6826,7 +6826,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20260203.0"
     "@slashnephy/eslint-config": "npm:3.0.190"
     eslint: "npm:9.39.2"
-    storybook: "npm:10.2.5"
+    storybook: "npm:10.2.6"
     typescript: "npm:5.9.3"
     wrangler: "npm:4.62.0"
   languageName: unknown
