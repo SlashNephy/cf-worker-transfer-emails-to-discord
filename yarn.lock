@@ -1712,9 +1712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.193":
-  version: 3.0.193
-  resolution: "@slashnephy/eslint-config@npm:3.0.193"
+"@slashnephy/eslint-config@npm:3.0.194":
+  version: 3.0.194
+  resolution: "@slashnephy/eslint-config@npm:3.0.194"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
     "@eslint/js": "npm:9.39.2"
@@ -1729,7 +1729,7 @@ __metadata:
     eslint-import-resolver-node: "npm:0.3.9"
     eslint-import-resolver-typescript: "npm:4.4.4"
     eslint-plugin-import-x: "npm:4.16.1"
-    eslint-plugin-jest: "npm:29.12.1"
+    eslint-plugin-jest: "npm:29.12.2"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-n: "npm:17.23.2"
     eslint-plugin-package-json: "npm:0.88.2"
@@ -1752,7 +1752,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/7d4bb604dac8e61d51efd84e57b702205a055362c934cc9818686228753650fad582c42ba29c48cbba5594904bdea087ad3d9666fe5b85c80fb3e131cffafa9d
+  checksum: 10/2a8cacab5075c7443d9abe4f20be4660e637283d16bdf6581ed7d8e19c090e052d0c12ea1909c7e80179347b03ed107411b24098a009d5d34f91abfdd2367e2d
   languageName: node
   linkType: hard
 
@@ -3682,21 +3682,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.12.1":
-  version: 29.12.1
-  resolution: "eslint-plugin-jest@npm:29.12.1"
+"eslint-plugin-jest@npm:29.12.2":
+  version: 29.12.2
+  resolution: "eslint-plugin-jest@npm:29.12.2"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
     eslint: ^8.57.0 || ^9.0.0
     jest: "*"
+    typescript: ">=4.8.4 <6.0.0"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 10/2758d55bc536f936a6dfa61353210fcf607a212d55c4cbdd1778b4e9f9638c63c723c53c2aac9d82ef9a539d98c09ad2b1aa3d6dac2b2b91c8cb3520fcfe6d8f
+    typescript:
+      optional: true
+  checksum: 10/fb54ec7ae166c9838075cbd3c1f0b210ca6e81501126b1a08230ddc92d1efebb529cbfba569ea02b837313d9378c9165440319ca8a84bd13d37364c98fe83e80
   languageName: node
   linkType: hard
 
@@ -6824,7 +6827,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260206.0"
-    "@slashnephy/eslint-config": "npm:3.0.193"
+    "@slashnephy/eslint-config": "npm:3.0.194"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.7"
     typescript: "npm:5.9.3"
