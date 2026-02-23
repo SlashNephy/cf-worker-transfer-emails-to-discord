@@ -16,7 +16,7 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20260219.0",
+    "@cloudflare/workers-types": "4.20260227.0",
     "@slashnephy/eslint-config": "3.0.216",
     "eslint": "9.39.2",
     "storybook": "10.2.10",
