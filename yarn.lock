@@ -1514,9 +1514,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.215":
-  version: 3.0.215
-  resolution: "@slashnephy/eslint-config@npm:3.0.215"
+"@slashnephy/eslint-config@npm:3.0.216":
+  version: 3.0.216
+  resolution: "@slashnephy/eslint-config@npm:3.0.216"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.6.0"
     "@eslint/js": "npm:9.39.2"
@@ -1534,7 +1534,7 @@ __metadata:
     eslint-plugin-jest: "npm:29.15.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-n: "npm:17.24.0"
-    eslint-plugin-package-json: "npm:0.88.2"
+    eslint-plugin-package-json: "npm:0.88.3"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
@@ -1554,7 +1554,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/6ad98097043622ffbe84c5bed6e389c7b26174685e07e57f093909bd20c258f3223df3048be8d64e5304cdf8449f3b7baf93b9d386739013e689b5e57e556f7f
+  checksum: 10/2e731b4c70e40ac1d7002dccc39a9a5a351fddb6a5f65c2d04393dca8c6f30f229029cc99069147e5959475324bc4efbd5796d431dcd123ad61be8cd36ced7e3
   languageName: node
   linkType: hard
 
@@ -3467,9 +3467,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-package-json@npm:0.88.2":
-  version: 0.88.2
-  resolution: "eslint-plugin-package-json@npm:0.88.2"
+"eslint-plugin-package-json@npm:0.88.3":
+  version: 0.88.3
+  resolution: "eslint-plugin-package-json@npm:0.88.3"
   dependencies:
     "@altano/repository-tools": "npm:^2.0.1"
     change-case: "npm:^5.4.4"
@@ -3484,7 +3484,7 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
     jsonc-eslint-parser: ^2.0.0
-  checksum: 10/69d38acc87fd8c1a23489f480f53a07cb6c7729d815c279ef6d2e3f2ac9a0a7806b34adb4c4d93826534c7878f35c6044cd8017e063d471d2de74be16c5a1ab2
+  checksum: 10/e8714bb258694a30d8c606c5175da1d528ca01e26f0263af18a4cc1996457745b14eaa7c310f538ae583da15e0b678dcd19f6a0e9ff05c52aba1002d63b57055
   languageName: node
   linkType: hard
 
@@ -6565,7 +6565,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260219.0"
-    "@slashnephy/eslint-config": "npm:3.0.215"
+    "@slashnephy/eslint-config": "npm:3.0.216"
     eslint: "npm:9.39.2"
     storybook: "npm:10.2.10"
     typescript: "npm:5.9.3"
