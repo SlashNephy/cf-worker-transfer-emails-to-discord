@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260305.0",
-    "@slashnephy/eslint-config": "3.0.229",
+    "@slashnephy/eslint-config": "3.0.233",
     "eslint": "9.39.3",
     "storybook": "10.2.13",
     "typescript": "5.9.3",
