@@ -1523,9 +1523,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.250":
-  version: 3.0.250
-  resolution: "@slashnephy/eslint-config@npm:3.0.250"
+"@slashnephy/eslint-config@npm:3.0.251":
+  version: 3.0.251
+  resolution: "@slashnephy/eslint-config@npm:3.0.251"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.7.1"
     "@eslint/js": "npm:9.39.3"
@@ -1554,7 +1554,7 @@ __metadata:
     eslint-plugin-unused-imports: "npm:4.4.1"
     eslint-plugin-userscripts: "npm:0.5.6"
     eslint-plugin-xss: "npm:0.1.12"
-    eslint-plugin-yml: "npm:3.3.0"
+    eslint-plugin-yml: "npm:3.3.1"
     globals: "npm:17.4.0"
     graphql: "npm:16.13.0"
     jsonc-eslint-parser: "npm:3.1.0"
@@ -1563,7 +1563,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.0.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/6cabfb3e730454498adf3055d8c2bc8f894ee0cbed10b603db7ce077311d1c5cf5af9c7f761dad9f282513e4dafd2b4f4118b6f55f5c6471fb60f78f818535f8
+  checksum: 10/66b71c0576482b4e06e008051e902b75587e89a18de5e7f51a7bd2ea0505eeb35ed1860b8983357bc6f9b935ebfc69d64f6bfd59150d440401f9816e4346ac78
   languageName: node
   linkType: hard
 
@@ -3493,9 +3493,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:3.3.0":
-  version: 3.3.0
-  resolution: "eslint-plugin-yml@npm:3.3.0"
+"eslint-plugin-yml@npm:3.3.1":
+  version: 3.3.1
+  resolution: "eslint-plugin-yml@npm:3.3.1"
   dependencies:
     "@eslint/core": "npm:^1.0.1"
     "@eslint/plugin-kit": "npm:^0.6.0"
@@ -3507,7 +3507,7 @@ __metadata:
     yaml-eslint-parser: "npm:^2.0.0"
   peerDependencies:
     eslint: ">=9.38.0"
-  checksum: 10/3e45bbd2f10511f3e2ff8592f659296ead59ccb89deed852008fd6f31cc66dba9dd0d34a5c54e814bfc7d5b91abdfaac1bea406f7c183fae7b50d86e5c5c9aa5
+  checksum: 10/d0862a92d6842cd401760fd1f42043bd4cb47e78b7f1a257acd1dc113fb653ee97b194c2fe5fdf487fa62e714326da2b67f09326b59cef92eb789c0a890a8670
   languageName: node
   linkType: hard
 
@@ -6420,7 +6420,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260307.1"
-    "@slashnephy/eslint-config": "npm:3.0.250"
+    "@slashnephy/eslint-config": "npm:3.0.251"
     eslint: "npm:9.39.4"
     storybook: "npm:10.2.16"
     typescript: "npm:5.9.3"
