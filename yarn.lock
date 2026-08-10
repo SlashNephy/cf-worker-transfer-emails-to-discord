@@ -1033,9 +1033,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-eslint/eslint-plugin@npm:4.4.0":
-  version: 4.4.0
-  resolution: "@graphql-eslint/eslint-plugin@npm:4.4.0"
+"@graphql-eslint/eslint-plugin@npm:4.4.1":
+  version: 4.4.1
+  resolution: "@graphql-eslint/eslint-plugin@npm:4.4.1"
   dependencies:
     "@graphql-tools/code-file-loader": "npm:^8.0.0"
     "@graphql-tools/graphql-tag-pluck": "npm:^8.3.4"
@@ -1055,7 +1055,7 @@ __metadata:
       optional: true
     json-schema-to-ts:
       optional: true
-  checksum: 10/37c16d0690cd345562a8896da3511883c5811e44d1eec0230a01d59682e7231687c685c7c713cd9c9f5ef4181e576bcb645844a3e49328d70aaffeb49a29e327
+  checksum: 10/dcfb4e6688cb2270e281ff6470e14c40292a73cb2c770cb53f2e434925199065d5f354ec5df6bb4c168073d578875d3f33a2b8b0966e7109e0ac126baa559517
   languageName: node
   linkType: hard
 
@@ -2146,14 +2146,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:3.0.381":
-  version: 3.0.381
-  resolution: "@slashnephy/eslint-config@npm:3.0.381"
+"@slashnephy/eslint-config@npm:3.0.383":
+  version: 3.0.383
+  resolution: "@slashnephy/eslint-config@npm:3.0.383"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.7.2"
     "@eslint-react/eslint-plugin": "npm:2.13.0"
     "@eslint/js": "npm:9.39.5"
-    "@graphql-eslint/eslint-plugin": "npm:4.4.0"
+    "@graphql-eslint/eslint-plugin": "npm:4.4.1"
     "@microsoft/eslint-formatter-sarif": "npm:3.1.0"
     "@next/eslint-plugin-next": "npm:16.2.12"
     "@stylistic/eslint-plugin": "npm:5.10.0"
@@ -2172,7 +2172,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-react-refresh: "npm:0.5.3"
     eslint-plugin-relay: "npm:2.0.0"
-    eslint-plugin-storybook: "npm:10.5.5"
+    eslint-plugin-storybook: "npm:10.5.6"
     eslint-plugin-tsdoc: "npm:0.5.2"
     eslint-plugin-unused-imports: "npm:4.4.1"
     eslint-plugin-userscripts: "npm:0.5.6"
@@ -2186,7 +2186,7 @@ __metadata:
     yaml-eslint-parser: "npm:2.1.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10/66e1e5a57781940cadb64a4e1ea6eb7eff8235234c8eca0185d39406397f885c13baa2eeb8048e7484cc237696ce1a95aaa095544f9854e28d45ef2c289da699
+  checksum: 10/ee35ae66eb1b4139d75c64219c82da5e734f793c3f1082ee7387da515c606bdea3037753186ecf6ad266479029b6bbdc61ad813e4b85a63120854847c2b45a1f
   languageName: node
   linkType: hard
 
@@ -4478,16 +4478,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.5.5":
-  version: 10.5.5
-  resolution: "eslint-plugin-storybook@npm:10.5.5"
+"eslint-plugin-storybook@npm:10.5.6":
+  version: 10.5.6
+  resolution: "eslint-plugin-storybook@npm:10.5.6"
   dependencies:
     "@typescript-eslint/types": "npm:^8.60.0"
     "@typescript-eslint/utils": "npm:^8.60.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.5.5
-  checksum: 10/3960ddf433817727645079a7cedf689f5133cecaee7c886308ee9b78e165d440d2edc0f5bda57b47782d890831199c3b2337a90d6847793f2b72c8a6dc7ed12b
+    storybook: ^10.5.6
+  checksum: 10/772ba902a60b66c1d3b4a7461ed314f59fb944a826bb5ff70d5cd1ebefeda309d5afc981e06be7d1e840decc06741a2c1f368804832a22b33842804037d12435
   languageName: node
   linkType: hard
 
@@ -7444,7 +7444,7 @@ __metadata:
   resolution: "transfer-emails-to-discord@workspace:."
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260702.1"
-    "@slashnephy/eslint-config": "npm:3.0.381"
+    "@slashnephy/eslint-config": "npm:3.0.383"
     eslint: "npm:9.39.5"
     storybook: "npm:10.5.7"
     typescript: "npm:5.9.3"
